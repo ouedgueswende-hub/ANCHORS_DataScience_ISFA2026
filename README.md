@@ -24,11 +24,11 @@ Pour exécuter chaque script il faut télécharger le dataset freMTPLfreq.csv de
 Python 3.10 environnement glm
 
 # packages 
-pandas as pd
-numpy as np 
-sklearn.preprocessing import StandardScaler 
-statsmodels as sm
-alibi.explainers import AnchorTabular
+pandas
+numpy 
+sklearn
+statsmodels 
+alibi
 pprint
 matplotlib
 re
