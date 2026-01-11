@@ -8,7 +8,7 @@ Erwann
 Wei
 Yannick
 
-Ce projet se base sur le dataset freMTPLfreq, disponible via ce lien http://dutangc.perso.math.cnrs.fr/RRepository/pub/web/vignettes/poisson_vignette.html ou ici https://github.com/Silicon-Plane/ANCHORS_DataScience_ISFA2026/blob/main/DataSet.zip.
+Ce projet se base sur le dataset freMTPLfreq, disponible via ce lien https://github.com/Silicon-Plane/ANCHORS_DataScience_ISFA2026/blob/main/DataSet.zip ou ici http://dutangc.perso.math.cnrs.fr/RRepository/pub/web/vignettes/poisson_vignette.html.
 
 Le projet contient 3 scripts principaux, chacun dédié à un modèle : 
 
@@ -16,7 +16,7 @@ Le projet contient 3 scripts principaux, chacun dédié à un modèle :
 =>  Random Forest
 =>  XGBoost
 
-Pour exécuter chaque script il faut télécharger le dataset freMTPLfreq.csv depuis ce lien http://dutangc.perso.math.cnrs.fr/RRepository/pub/web/vignettes/poisson_vignette.html ou ici https://github.com/Silicon-Plane/ANCHORS_DataScience_ISFA2026/blob/main/DataSet.zip puis modifier le chemin du fichier en début de script pour indiquer l'emplacementr local du dataset.
+Pour exécuter chaque script il faut télécharger le dataset freMTPLfreq.csv depuis ce lien https://github.com/Silicon-Plane/ANCHORS_DataScience_ISFA2026/blob/main/DataSet.zip ou ici http://dutangc.perso.math.cnrs.fr/RRepository/pub/web/vignettes/poisson_vignette.html puis modifier le chemin du fichier en début de script pour indiquer l'emplacementr local du dataset.
 
 
 # SetUp 
@@ -24,11 +24,11 @@ Pour exécuter chaque script il faut télécharger le dataset freMTPLfreq.csv de
 Python 3.10 environnement glm
 
 # packages 
-pandas as pd
-numpy as np 
-sklearn.preprocessing import StandardScaler 
-statsmodels as sm
-alibi.explainers import AnchorTabular
+pandas
+numpy 
+sklearn
+statsmodels
+alibi
 pprint
 matplotlib
 re
